@@ -1,0 +1,38 @@
+.payment_box select#payment_option {
+    width: 250px;
+    padding: 15px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+.payment_box label {
+    display: block;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.payment_method_alfapay_payment_gateways img{
+    top: 4px !important;
+}
+
+
+.woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before {
+    height: 8em;
+    width: 6em;
+    position: absolute;
+    top: 45%;
+    position: absolute;
+    left: 0%;
+    right: 20%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    content: "";
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    background: url('https://netbanking.bankalfalah.com/ib/assets/images/alfa-loader.gif') center center;
+    background-size: cover;
+    line-height: 1;
+    font-size: 2em;
+    z-index: 9999;
+}
